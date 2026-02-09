@@ -1,0 +1,76 @@
+[
+    {
+        "id": 1,
+        "name": "Murmer",
+        "speed": "20 Mbps",
+        "price": "Rp 190.000/bulan",
+        "category": "Budget / Hemat",
+        "description": "Pilihan paling hemat. Cocok untuk rumah tangga kecil, mahasiswa (anak kos), atau penggunaan sendiri. Cukup untuk browsing, media sosial, dan streaming video standar (SD).",
+        "features": [
+            "Gratis Instalasi",
+            "IP Dinamis",
+            "Termasuk Router Standar"
+        ],
+        "ideal_for": [
+            "Mahasiswa",
+            "Pengguna Single",
+            "Browsing Ringan"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Seamless",
+        "speed": "50 Mbps",
+        "price": "Rp 250.000/bulan",
+        "category": "Keluarga",
+        "description": "Paling pas untuk keluarga. Mendukung banyak perangkat streaming video HD secara bersamaan tanpa buffering (lancar jaya).",
+        "features": [
+            "Gratis Instalasi",
+            "Router Dual Band",
+            "Dukungan Prioritas"
+        ],
+        "ideal_for": [
+            "Keluarga Kecil",
+            "Streaming HD",
+            "Work from Home (WFH)"
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Ultra Synergi",
+        "speed": "100 Mbps",
+        "price": "Rp 550.000/bulan",
+        "category": "Power User / Gaming",
+        "description": "Koneksi ngebut untuk gaming kompetitif, streaming 4K, dan download file besar. Latency rendah, anti lag.",
+        "features": [
+            "Gratis Instalasi",
+            "Router Gaming",
+            "Tersedia IP Statis (Add-on)",
+            "Free Trial 1 Bulan"
+        ],
+        "ideal_for": [
+            "Gamers",
+            "Konten Kreator",
+            "Keluarga Besar"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "GigaMax",
+        "speed": "1 Gbps",
+        "price": "Rp 995.000/bulan",
+        "category": "Profesional / Bisnis",
+        "description": "Kecepatan ultimate. Jalur khusus Fiber Optik. Download dan upload secepat kilat untuk bisnis atau kantor.",
+        "features": [
+            "Instalasi VIP",
+            "Termasuk Mesh WiFi System",
+            "Manajer Akun Khusus",
+            "SLA 99.9%"
+        ],
+        "ideal_for": [
+            "Kantor Kecil (SOHO)",
+            "Streamer Profesional",
+            "Smart Home (20+ Device)"
+        ]
+    }
+]

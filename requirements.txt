@@ -1,0 +1,7 @@
+flask
+google-generativeai
+langchain-google-genai
+langchain-community
+langchain-core
+faiss-cpu
+python-dotenv
