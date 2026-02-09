@@ -8,7 +8,7 @@ HTML_TEMPLATE = """
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Biznet Chatbot</title>
+    <title>Bizzy Chatbot</title>
     <style>
         body { 
             font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; 
@@ -88,7 +88,7 @@ HTML_TEMPLATE = """
 <body>
     <div class="chat-container">
         <div class="header">
-            <h2>Biznet Assistant</h2>
+            <h2>Bizzy Assistant</h2>
         </div>
         <div id="chat-box" class="chat-box"></div>
         <div class="input-area">
@@ -125,12 +125,12 @@ HTML_TEMPLATE = """
                 // Display bot response
                 chatBox.innerHTML += `
                     <div class="bot-message">
-                        <span class="bot-label">Bot</span>
+                        <span class="bot-label">Bizzy AI</span>
                         ${data.response}
                     </div><hr>`;
                 chatBox.scrollTop = chatBox.scrollHeight;
             } catch (error) {
-                chatBox.innerHTML += `<div class="bot-message" style="color: red;">Maaf, terjadi kesalahan.</div>`;
+                chatBox.innerHTML += `<div class="bot-message">Coba tanyakan kebutuhan internet kamu.</div>`;
             }
         }
     </script>

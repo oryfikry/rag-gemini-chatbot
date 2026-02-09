@@ -1,12 +1,12 @@
-# Biznet Wifi Product RAG Chatbot
+# Bizzy Wifi Product RAG Chatbot
 
-A simple yet powerful Retrieval-Augmented Generation (RAG) chatbot for **Biznet Wifi Product**. This application uses Google's Gemini LLM and FAISS vector database to provide accurate, context-aware information about internet packages and services.
+A simple yet powerful Retrieval-Augmented Generation (RAG) chatbot for **Bizzy Wifi Product**. This application uses Google's Gemini LLM and FAISS vector database to provide accurate, context-aware information about internet packages and services.
 
 ## Features
 
 - **RAG Architecture**: Retrieves relevant product information from a local JSON database before generating responses.
 - **Premium UI**: Modern, clean, and responsive chat interface with a bubble-chat design.
-- **Context-Aware**: Specifically tailored for Biznet Wifi products with additional context about 1:1 speed and service areas (Jabodetabek).
+- **Context-Aware**: Specifically tailored for Bizzy Wifi products with additional context about 1:1 speed and service areas (Jabodetabek).
 - **HTML Formatting**: Bot responses are beautifully formatted with bold text, lists, and clear spacing.
 - **Fast retrieval**: Uses FAISS for efficient similarity search across product data.
 
@@ -54,7 +54,7 @@ A simple yet powerful Retrieval-Augmented Generation (RAG) chatbot for **Biznet 
    http://localhost:5000
    ```
 
-3. Start chatting with the Biznet Assistant!
+3. Start chatting with the Bizzy Assistant!
 
 ## Core Files
 

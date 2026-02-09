@@ -85,7 +85,7 @@ class WifiChatbot:
         # 2. Define the Indonesian Prompt
         # We instruct the AI to speak informal but polite Indonesian ("Bahasa Indonesia yang luwes/sopan")
         prompt_template = """
-        Anda adalah asisten customer service (CS) yang ramah untuk 'Biznet Wifi Product', sebuah penyedia layanan internet di Indonesia.
+        Anda adalah asisten customer service (CS) yang ramah untuk 'Bizzy Wifi Product', sebuah penyedia layanan internet di Indonesia.
         
         Gunakan 'Informasi Produk' berikut untuk menjawab pertanyaan pengguna.
         Jika jawabannya tidak ada di dalam informasi, katakan "Maaf, saya belum memiliki informasi tersebut."
@@ -101,7 +101,10 @@ class WifiChatbot:
         
         Informasi Produk:
         {context}
-        Informasi Tambahan: kecepatan internet itu 1:1 antara download dan upload, menjangkau area jakarta, depok, bogor, bekasi, tangerang
+        Informasi Tambahan: kecepatan internet itu 1:1 antara download dan upload, menjangkau area jakarta, depok, bogor, bekasi, tangerang, biaya pemasangan gratis.
+        ganti kata "anda" menjadi "kamu", "saya" menjadi "aku", "kita" menjadi "kami", "Bapak/Ibu" menjadi "kak".
+        jam operasional customer service senin-jumat 08.00-21.00 WIB, sabtu-minggu 08.00-17.00 WIB.
+        nomor whatsapp customer service +628123456789, email cs@bizzy.com
 
         Pertanyaan Pengguna: {question}
         
